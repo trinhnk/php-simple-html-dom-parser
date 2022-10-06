@@ -1,6 +1,8 @@
 {
     "name": "trinhnk/html-dom-parser",
-    "description": ":package_description",
+    "description": "PHP Simple HTML DOM Parser",
+    "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
