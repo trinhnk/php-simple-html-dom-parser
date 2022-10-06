@@ -1,0 +1,45 @@
+{
+    "name": "trinhnk/html-dom-parser",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Kim Trinh",
+            "email": "contact@trinhnk.com",
+            "homepage": "https://trinhnk.com"
+        }
+    ],
+    "homepage": "https://github.com/trinhnk/html-dom-parser",
+    "keywords": [
+        "Laravel",
+        "HtmlDomParser"
+    ],
+    "require": {
+        "illuminate/support": "~9",
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trinhnk\\HtmlDomParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trinhnk\\HtmlDomParser\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Trinhnk\\HtmlDomParser\\HtmlDomParserServiceProvider"
+            ],
+            "aliases": {
+                "HtmlDomParser": "Trinhnk\\HtmlDomParser\\Facades\\HtmlDomParser"
+            }
+        }
+    }
+}
